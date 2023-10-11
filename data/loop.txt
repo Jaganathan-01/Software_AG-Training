@@ -1,0 +1,13 @@
+dir="/home/jaganathan/data"
+file_to_check="loop.txt"
+
+ 
+
+while :; do
+    if [ -e "$dir/$file_to_check" ]; then
+        echo "$file_to_check found in $data_dir"
+        echo "Exiting with status code 1.".
+        exit 1
+    fi
+    sleep 1
+done
