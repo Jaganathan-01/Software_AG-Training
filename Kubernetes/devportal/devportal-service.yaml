@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: devportal-service
+spec:
+  selector:
+    app: devportal  # Select the pods with the "app: devportal" label
+  ports:
+    - port: 80      # Port on the Service
+      targetPort: 8083
+      nodePort: 30005  # Port on the Pod (the containerPort of your application)
+  type: NodePort

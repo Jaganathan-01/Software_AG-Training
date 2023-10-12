@@ -1,0 +1,15 @@
+#!/bin/sh
+
+url="https://itrac.eur.ad.sag/rest/api/latest/issue/WF-30753"
+
+username="***"
+password="***********"
+
+json_data=$(curl -u "$username:$password" "$url" | jq '.')
+
+word="inwardIssue"
+word_count=$(echo "$json_data" | jq -r '. | tostring' | grep -o "\b$word\b" | wc -l)
+
+inward_issues_keys=$(echo "$json_data" | jq -r '.fields.issuelinks' | jq -r '.[] | .inwardIssue' | jq -r '.key')
+echo "inwardIssues count : $word_count"
+echo "$inward_issues_keys"
