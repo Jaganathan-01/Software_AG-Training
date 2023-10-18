@@ -1,0 +1,17 @@
+devportal:
+  image: iregistry.eur.ad.sag/kub-sic/devportal:10.15
+  replicas: 1
+  port: 8083
+  environment:
+    SPRING_ELASTICSEARCH_REST_URIS: http://elasticsearch:9200
+
+devportal-service:
+  name: devportal-service
+  selector:
+    app: devportal
+  ports:
+    - name: http
+      protocol: TCP
+      port: 80
+      targetPort: 8083
+  type: NodePort

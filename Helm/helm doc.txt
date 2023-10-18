@@ -2,3 +2,11 @@
 
 intro:
 
+   helm ls
+   helm search repo
+   helm repo add stable 
+   helm install stable/mysql
+   helm uninstall (chart name)
+helm upgrade name and chart
+helm rollback deployname (back to be the revision)
+helm local update - helm repo update
