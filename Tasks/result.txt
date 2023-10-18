@@ -1,0 +1,450 @@
+{
+  "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+  "id": "1832907",
+  "self": "https://itrac.eur.ad.sag/rest/api/latest/issue/1832907",
+  "key": "WF-30753",
+  "fields": {
+    "customfield_13180": "<div class=\"aui-message hint\">\r\n\t<b>Please check</b>\r\n\t<ul>\r\n\t\t<li>Does the feature fulfil the acceptance criteria?</li>\r\n\t\t<li>Does the feature meet the non-functional requirements (e.g. documentation, performance, availability, security, manageability, localizability)?</li>\r\n\t</ul>\r\n</div>",
+    "customfield_17780": null,
+    "customfield_19680": null,
+    "customfield_19681": null,
+    "customfield_21481": null,
+    "customfield_21480": null,
+    "customfield_10230": null,
+    "customfield_10472": null,
+    "fixVersions": [],
+    "customfield_10231": null,
+    "resolution": null,
+    "customfield_10750": null,
+    "customfield_10751": null,
+    "customfield_10900": null,
+    "customfield_19280": null,
+    "customfield_15080": null,
+    "customfield_17380": null,
+    "customfield_18980": null,
+    "customfield_12080": "-1",
+    "customfield_16680": 0,
+    "lastViewed": null,
+    "customfield_12082": "0",
+    "customfield_12081": "0.0",
+    "customfield_12480": null,
+    "customfield_16684": "\n<div title=\"0%\" style=\"margin-top:5px;width:100px;background-color:white;border-radius:5px;border:thin solid grey;padding:0px;\">\n\t<div style=\"width:0%;background-color:#0899CC;height:0.6em;border-radius:3px;\"></div>\n</div>\n<div style=\"width:100px;text-align:center;font-size:0.8em;\">0 of 2</div>",
+    "customfield_20780": null,
+    "customfield_16683": 2,
+    "customfield_16682": 0,
+    "customfield_16681": "\n<div title=\"0%\" style=\"margin-top:5px;width:100px;background-color:white;border-radius:5px;border:thin solid grey;padding:0px;\">\n\t<div style=\"width:0%;background-color:#0899CC;height:0.6em;border-radius:3px;\"></div>\n</div>\n<div style=\"width:100px;text-align:center;font-size:0.8em;\">0 of 0</div>",
+    "customfield_10580": null,
+    "customfield_12880": null,
+    "customfield_20380": [],
+    "customfield_16687": null,
+    "customfield_16686": "<div><div id=\"hasuserstoriesicon_1832907\" style=\"cursor: pointer;color:#326ca6;\" onclick=\"if(this.innerHTML.substring(0,4) == 'show'){this.innerHTML='<< hide';this.nextElementSibling.style.display='';}else{this.innerHTML='show >>';this.nextElementSibling.style.display='none';}if (typeof gadgets.window !== 'undefined') {gadgets.window.adjustHeight()};\">show &gt;&gt;</div><div id=\"hasuserstories_1832907\" style=\"overflow-x:auto;display:none\"><table class=\"aui\"><tr><th>Key</th><th>Summary</th><th>Status</th><th>Fix Version/s</th><th>Assignee</th><th>Component/s</th><th>Story Points</th><th>Story Sub-type</th></tr><tr><td><a href=\"https://itrac.eur.ad.sag/browse/DPO-2957\">DPO-2957</a></td><td>Refinement : Story task creation</td><td><span class=\" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-default jira-issue-status-lozenge-done jira-issue-status-lozenge-max-width-short\" data-tooltip=\"<span class=&quot;jira-issue-status-tooltip-title&quot;>New</span>\" original-title=\"\">New</span></td><td></td><td></td><td>Dev_Portal_Cloud</td><td>0</td><td>Refining</td></tr><tr><td><a href=\"https://itrac.eur.ad.sag/browse/WS-90992\">WS-90992</a></td><td>Test2</td><td><span class=\" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-default jira-issue-status-lozenge-done jira-issue-status-lozenge-max-width-short\" data-tooltip=\"<span class=&quot;jira-issue-status-tooltip-title&quot;>New</span>\" original-title=\"\">New</span></td><td></td><td></td><td>Team API General Tasks</td><td>0</td><td>Refining</td></tr></table></div></div>",
+    "customfield_10220": null,
+    "customfield_12881": null,
+    "customfield_16685": 0,
+    "customfield_10980": "9223372036854775807",
+    "customfield_10221": null,
+    "customfield_10981": "9223372036854775807",
+    "labels": [],
+    "customfield_10620": null,
+    "customfield_10216": null,
+    "customfield_10217": null,
+    "customfield_10218": null,
+    "aggregatetimeoriginalestimate": null,
+    "timeestimate": null,
+    "customfield_10219": null,
+    "issuelinks": [
+      {
+        "id": "1510688",
+        "self": "https://itrac.eur.ad.sag/rest/api/2/issueLink/1510688",
+        "type": {
+          "id": "10070",
+          "name": "Feature Hierarchy",
+          "inward": "is parent Feature of",
+          "outward": "is child of Feature",
+          "self": "https://itrac.eur.ad.sag/rest/api/2/issueLinkType/10070"
+        },
+        "inwardIssue": {
+          "id": "1841606",
+          "key": "DPO-2957",
+          "self": "https://itrac.eur.ad.sag/rest/api/2/issue/1841606",
+          "fields": {
+            "summary": "Refinement : Story task creation",
+            "status": {
+              "self": "https://itrac.eur.ad.sag/rest/api/2/status/10000",
+              "description": "",
+              "iconUrl": "https://itrac.eur.ad.sag/images/icons/status_new-sag.gif",
+              "name": "New",
+              "id": "10000",
+              "statusCategory": {
+                "self": "https://itrac.eur.ad.sag/rest/api/2/statuscategory/2",
+                "id": 2,
+                "key": "new",
+                "colorName": "default",
+                "name": "To Do"
+              }
+            },
+            "priority": {
+              "self": "https://itrac.eur.ad.sag/rest/api/2/priority/6",
+              "iconUrl": "https://itrac.eur.ad.sag/images/icons/priority_undefined.gif",
+              "name": "None",
+              "id": "6"
+            },
+            "issuetype": {
+              "self": "https://itrac.eur.ad.sag/rest/api/2/issuetype/15",
+              "id": "15",
+              "description": "User Story for a Feature (iTracAgile)",
+              "iconUrl": "https://itrac.eur.ad.sag/images/icons/user-story.gif",
+              "name": "User Story",
+              "subtask": false
+            }
+          }
+        }
+      },
+      {
+        "id": "1512063",
+        "self": "https://itrac.eur.ad.sag/rest/api/2/issueLink/1512063",
+        "type": {
+          "id": "10070",
+          "name": "Feature Hierarchy",
+          "inward": "is parent Feature of",
+          "outward": "is child of Feature",
+          "self": "https://itrac.eur.ad.sag/rest/api/2/issueLinkType/10070"
+        },
+        "inwardIssue": {
+          "id": "1842981",
+          "key": "WS-90992",
+          "self": "https://itrac.eur.ad.sag/rest/api/2/issue/1842981",
+          "fields": {
+            "summary": "Test2",
+            "status": {
+              "self": "https://itrac.eur.ad.sag/rest/api/2/status/10000",
+              "description": "",
+              "iconUrl": "https://itrac.eur.ad.sag/images/icons/status_new-sag.gif",
+              "name": "New",
+              "id": "10000",
+              "statusCategory": {
+                "self": "https://itrac.eur.ad.sag/rest/api/2/statuscategory/2",
+                "id": 2,
+                "key": "new",
+                "colorName": "default",
+                "name": "To Do"
+              }
+            },
+            "priority": {
+              "self": "https://itrac.eur.ad.sag/rest/api/2/priority/6",
+              "iconUrl": "https://itrac.eur.ad.sag/images/icons/priority_undefined.gif",
+              "name": "None",
+              "id": "6"
+            },
+            "issuetype": {
+              "self": "https://itrac.eur.ad.sag/rest/api/2/issuetype/15",
+              "id": "15",
+              "description": "User Story for a Feature (iTracAgile)",
+              "iconUrl": "https://itrac.eur.ad.sag/images/icons/user-story.gif",
+              "name": "User Story",
+              "subtask": false
+            }
+          }
+        }
+      }
+    ],
+    "assignee": {
+      "self": "https://itrac.eur.ad.sag/rest/api/2/user?username=insala",
+      "name": "insala",
+      "key": "insala",
+      "emailAddress": "Sandeep.Lati@softwareag.com",
+      "avatarUrls": {
+        "48x48": "https://itrac.eur.ad.sag/secure/useravatar?avatarId=11422",
+        "24x24": "https://itrac.eur.ad.sag/secure/useravatar?size=small&avatarId=11422",
+        "16x16": "https://itrac.eur.ad.sag/secure/useravatar?size=xsmall&avatarId=11422",
+        "32x32": "https://itrac.eur.ad.sag/secure/useravatar?size=medium&avatarId=11422"
+      },
+      "displayName": "Lati, Sandeep",
+      "active": true,
+      "timeZone": "Asia/Kolkata"
+    },
+    "status": {
+      "self": "https://itrac.eur.ad.sag/rest/api/2/status/10000",
+      "description": "",
+      "iconUrl": "https://itrac.eur.ad.sag/images/icons/status_new-sag.gif",
+      "name": "New",
+      "id": "10000",
+      "statusCategory": {
+        "self": "https://itrac.eur.ad.sag/rest/api/2/statuscategory/2",
+        "id": 2,
+        "key": "new",
+        "colorName": "default",
+        "name": "To Do"
+      }
+    },
+    "components": [],
+    "customfield_11380": null,
+    "customfield_21187": null,
+    "customfield_21186": null,
+    "customfield_16793": null,
+    "customfield_17089": null,
+    "customfield_21185": null,
+    "customfield_17088": null,
+    "customfield_21184": null,
+    "customfield_17880": 22,
+    "customfield_21183": [],
+    "customfield_10570": null,
+    "customfield_21182": null,
+    "customfield_10296": null,
+    "customfield_21181": null,
+    "customfield_16796": null,
+    "customfield_10298": null,
+    "customfield_10970": null,
+    "customfield_10850": {
+      "self": "https://itrac.eur.ad.sag/rest/api/2/project/11020",
+      "id": "11020",
+      "key": "WS",
+      "name": "webMethods Stories",
+      "projectTypeKey": "software",
+      "avatarUrls": {
+        "48x48": "https://itrac.eur.ad.sag/secure/projectavatar?pid=11020&avatarId=11029",
+        "24x24": "https://itrac.eur.ad.sag/secure/projectavatar?size=small&pid=11020&avatarId=11029",
+        "16x16": "https://itrac.eur.ad.sag/secure/projectavatar?size=xsmall&pid=11020&avatarId=11029",
+        "32x32": "https://itrac.eur.ad.sag/secure/projectavatar?size=medium&pid=11020&avatarId=11029"
+      },
+      "projectCategory": {
+        "self": "https://itrac.eur.ad.sag/rest/api/2/projectCategory/10230",
+        "id": "10230",
+        "description": "",
+        "name": "webMethods Cross"
+      }
+    },
+    "customfield_10213": null,
+    "customfield_10730": null,
+    "archiveddate": null,
+    "customfield_10841": null,
+    "aggregatetimeestimate": null,
+    "customfield_19380": null,
+    "customfield_20880": null,
+    "customfield_20484": null,
+    "creator": {
+      "self": "https://itrac.eur.ad.sag/rest/api/2/user?username=daso",
+      "name": "daso",
+      "key": "daso",
+      "emailAddress": "Dhivakar.Asokan@softwareag.com",
+      "avatarUrls": {
+        "48x48": "https://itrac.eur.ad.sag/secure/useravatar?avatarId=11422",
+        "24x24": "https://itrac.eur.ad.sag/secure/useravatar?size=small&avatarId=11422",
+        "16x16": "https://itrac.eur.ad.sag/secure/useravatar?size=xsmall&avatarId=11422",
+        "32x32": "https://itrac.eur.ad.sag/secure/useravatar?size=medium&avatarId=11422"
+      },
+      "displayName": "Asokan, Dhivakar",
+      "active": true,
+      "timeZone": "Europe/Berlin"
+    },
+    "customfield_20482": null,
+    "customfield_20483": null,
+    "subtasks": [],
+    "customfield_10281": null,
+    "customfield_20480": null,
+    "customfield_12581": null,
+    "customfield_12580": null,
+    "customfield_20481": null,
+    "reporter": {
+      "self": "https://itrac.eur.ad.sag/rest/api/2/user?username=daso",
+      "name": "daso",
+      "key": "daso",
+      "emailAddress": "Dhivakar.Asokan@softwareag.com",
+      "avatarUrls": {
+        "48x48": "https://itrac.eur.ad.sag/secure/useravatar?avatarId=11422",
+        "24x24": "https://itrac.eur.ad.sag/secure/useravatar?size=small&avatarId=11422",
+        "16x16": "https://itrac.eur.ad.sag/secure/useravatar?size=xsmall&avatarId=11422",
+        "32x32": "https://itrac.eur.ad.sag/secure/useravatar?size=medium&avatarId=11422"
+      },
+      "displayName": "Asokan, Dhivakar",
+      "active": true,
+      "timeZone": "Europe/Berlin"
+    },
+    "customfield_12981": null,
+    "customfield_12980": null,
+    "aggregateprogress": {
+      "progress": 0,
+      "total": 0
+    },
+    "customfield_10320": null,
+    "customfield_10960": null,
+    "customfield_10840": {
+      "self": "https://itrac.eur.ad.sag/rest/api/2/user?username=daso",
+      "name": "daso",
+      "key": "daso",
+      "emailAddress": "Dhivakar.Asokan@softwareag.com",
+      "avatarUrls": {
+        "48x48": "https://itrac.eur.ad.sag/secure/useravatar?avatarId=11422",
+        "24x24": "https://itrac.eur.ad.sag/secure/useravatar?size=small&avatarId=11422",
+        "16x16": "https://itrac.eur.ad.sag/secure/useravatar?size=xsmall&avatarId=11422",
+        "32x32": "https://itrac.eur.ad.sag/secure/useravatar?size=medium&avatarId=11422"
+      },
+      "displayName": "Asokan, Dhivakar",
+      "active": true,
+      "timeZone": "Europe/Berlin"
+    },
+    "customfield_10314": null,
+    "customfield_10318": null,
+    "progress": {
+      "progress": 0,
+      "total": 0
+    },
+    "votes": {
+      "self": "https://itrac.eur.ad.sag/rest/api/2/issue/WF-30753/votes",
+      "votes": 0,
+      "hasVoted": false
+    },
+    "worklog": {
+      "startAt": 0,
+      "maxResults": 20,
+      "total": 0,
+      "worklogs": []
+    },
+    "archivedby": null,
+    "customfield_19882": null,
+    "issuetype": {
+      "self": "https://itrac.eur.ad.sag/rest/api/2/issuetype/19",
+      "id": "19",
+      "description": "",
+      "iconUrl": "https://itrac.eur.ad.sag/images/icons/feature.gif",
+      "name": "Feature",
+      "subtask": false
+    },
+    "customfield_19883": null,
+    "customfield_17580": null,
+    "customfield_19884": null,
+    "customfield_10390": null,
+    "customfield_19880": null,
+    "customfield_17980": 22,
+    "timespent": null,
+    "customfield_11480": null,
+    "customfield_19881": null,
+    "customfield_10790": "1048034",
+    "project": {
+      "self": "https://itrac.eur.ad.sag/rest/api/2/project/10950",
+      "id": "10950",
+      "key": "WF",
+      "name": "webMethods Features",
+      "projectTypeKey": "software",
+      "avatarUrls": {
+        "48x48": "https://itrac.eur.ad.sag/secure/projectavatar?pid=10950&avatarId=10444",
+        "24x24": "https://itrac.eur.ad.sag/secure/projectavatar?size=small&pid=10950&avatarId=10444",
+        "16x16": "https://itrac.eur.ad.sag/secure/projectavatar?size=xsmall&pid=10950&avatarId=10444",
+        "32x32": "https://itrac.eur.ad.sag/secure/projectavatar?size=medium&pid=10950&avatarId=10444"
+      },
+      "projectCategory": {
+        "self": "https://itrac.eur.ad.sag/rest/api/2/projectCategory/10230",
+        "id": "10230",
+        "description": "",
+        "name": "webMethods Cross"
+      }
+    },
+    "customfield_10671": null,
+    "customfield_10550": null,
+    "customfield_10430": {
+      "self": "https://itrac.eur.ad.sag/rest/api/2/customFieldOption/10381",
+      "value": "Internal",
+      "id": "10381",
+      "disabled": false
+    },
+    "aggregatetimespent": null,
+    "customfield_10673": null,
+    "customfield_10431": null,
+    "customfield_10674": {
+      "self": "https://itrac.eur.ad.sag/rest/api/2/customFieldOption/10603",
+      "value": "Yes",
+      "id": "10603",
+      "disabled": false
+    },
+    "customfield_10940": null,
+    "resolutiondate": null,
+    "workratio": -1,
+    "customfield_19480": null,
+    "customfield_19481": null,
+    "customfield_17182": null,
+    "customfield_16482": null,
+    "watches": {
+      "self": "https://itrac.eur.ad.sag/rest/api/2/issue/WF-30753/watchers",
+      "watchCount": 0,
+      "isWatching": false
+    },
+    "customfield_14180": null,
+    "customfield_20980": null,
+    "customfield_14184": "0|i7jcjg:",
+    "customfield_18780": "<div class=\"aui-message\">\r\nYou can continue if you have performed the <a target=\"_blank\" href=\"https://iwiki.eur.ad.sag/x/owZfK\"><b>Feature Security Impact Analysis</b></a>\r\n</div>",
+    "created": "2023-09-20T10:09:56.660+0200",
+    "customfield_14185": "2|i2isrr:",
+    "customfield_20580": null,
+    "customfield_20181": null,
+    "customfield_20180": null,
+    "customfield_10420": {
+      "self": "https://itrac.eur.ad.sag/rest/api/2/customFieldOption/10370",
+      "value": "Bug",
+      "id": "10370",
+      "disabled": false
+    },
+    "customfield_10301": null,
+    "customfield_10930": [
+      "Infrastructure"
+    ],
+    "customfield_10811": "Technical: Infrastructure",
+    "customfield_10812": "WF-30753",
+    "updated": "2023-09-20T10:09:56.707+0200",
+    "customfield_16080": null,
+    "customfield_17681": null,
+    "customfield_17680": null,
+    "customfield_11181": null,
+    "timeoriginalestimate": null,
+    "description": "ITrac automation POC",
+    "customfield_10770": null,
+    "customfield_10254": null,
+    "customfield_10650": null,
+    "customfield_10134": null,
+    "customfield_10530": null,
+    "customfield_10531": null,
+    "customfield_10014": [
+      "daso(daso)",
+      "insala(insala)"
+    ],
+    "timetracking": {},
+    "customfield_10006": null,
+    "customfield_10007": null,
+    "customfield_10920": "1048034",
+    "customfield_10800": 999999,
+    "attachment": [],
+    "customfield_19580": null,
+    "summary": "ITrac automation POC",
+    "customfield_16581": null,
+    "customfield_16580": null,
+    "customfield_14280": null,
+    "customfield_10081": null,
+    "customfield_10083": null,
+    "customfield_10084": null,
+    "customfield_20280": null,
+    "customfield_10000": null,
+    "customfield_10001": null,
+    "customfield_10243": null,
+    "customfield_10760": null,
+    "customfield_10002": null,
+    "customfield_10244": null,
+    "customfield_10003": null,
+    "customfield_10520": null,
+    "customfield_10246": {
+      "self": "https://itrac.eur.ad.sag/rest/api/2/customFieldOption/10155",
+      "value": "Downloadable from Fix Explorer",
+      "id": "10155",
+      "disabled": false
+    },
+    "environment": null,
+    "duedate": null,
+    "comment": {
+      "comments": [],
+      "maxResults": 0,
+      "total": 0,
+      "startAt": 0
+    },
+    "customfield_18080": "{}"
+  }
+}
+Word Count for 'inwardIssue': 2
+Extracted Keys: 
