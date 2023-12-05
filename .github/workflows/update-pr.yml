@@ -20,7 +20,7 @@ jobs:
       - name: Run update script
         run: | 
             sudo chmod 777 update_readme.sh
-            ./update_readme.sh
+            ./update-readme.sh
       - name: Commit and push changes
         run: |
           git config user.email "jagakarthi11@gmail.com"
