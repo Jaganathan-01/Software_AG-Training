@@ -21,12 +21,14 @@ jobs:
         run: | 
             sudo chmod 777 update-readme.sh
             ./update-readme.sh
+            
       - name: Commit and push changes
         run: |
           git config user.email "jagakarthi11@gmail.com"
           git config user.name "Jaganathan-01"
           git checkout -b master  # Create and checkout main branch if not exists
-          git pull origin master
+          git pull origin master --no-rebase  # Add --no-rebase option to perform a merge
           git add output/readme.txt
           git commit -m "Update readme with PR info"
           git push origin HEAD:master
+
