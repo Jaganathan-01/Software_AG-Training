@@ -19,7 +19,7 @@ jobs:
  
       - name: Run update script
         run: | 
-            sudo chmod 777 update_readme.sh
+            sudo chmod 777 update-readme.sh
             ./update-readme.sh
       - name: Commit and push changes
         run: |
